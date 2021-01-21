@@ -1,0 +1,167 @@
+.head-adidas {
+  display: flex;
+  justify-content: space-around;
+  /* position: sticky; */
+  /* z-index: 1; */
+  /* top: 0; */
+  background-color: white;
+  /* height: 30px; */
+}
+  
+.header-right ul li,
+.header-center ul li {
+  display: inline;
+} 
+  
+.bars {
+  display: none;
+}
+  
+.adidas-logo img {
+  padding: 20px 0;
+  cursor: pointer;
+  background-color: white;
+}
+  
+.header-right ul,
+.header-center ul {
+  margin-top: 37px;
+}
+
+.header-center ul li {
+  margin: 20px;
+}
+  
+.header-center a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+  
+.header-right ul li {
+  margin: 8px;
+}
+  
+.header-right a {
+  color: rgb(100, 100, 100);
+  font-size: 14px;
+}
+  
+.header-right a:hover,
+.header-center a:hover {
+  color: black;
+}
+  
+.div-adidas-word1 {
+  border-top: 2px solid rgb(236, 234, 234);
+}
+
+.bag-art-grid,
+.div-adidas-word1 h1,
+.div-adidas-word1 ul {
+  margin: 30px 100px 30px 100px;
+}
+
+.div-adidas-word1 ul li {
+  display: inline;
+  border-right: 1px solid rgb(182, 181, 181);
+  margin: 5px;
+  padding-right: 10px;
+
+}
+
+.div-adidas-word1 ul li:last-child {
+  border-right: none;
+}
+
+.div-adidas-word1 a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.div-adidas-word1 a:hover {
+  color: black;
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s; 
+}
+
+@keyframes example {
+  0%   {color:black; left:0px; top:-1px;}
+  25%  {color: black; left:0px; top:-2px;}
+  50%  {color:black; left:0px; top:-3px;}
+  75%  {color:black; left:0px; top:-4px;}
+  100% {color: black; left:0px; top:-5px;}
+}
+
+.div-adidas-word1 h1 {
+  color: rgb(100, 100, 100);
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.bag-art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.sec-word1,
+.sec-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.sec-left img {
+  width: 100%;
+}
+
+.sec-left-word h1 {
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+  font-size: 22px;
+}
+
+.sec-left-word h3 {
+  color: rgb(182, 181, 181);
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.sec-left-word p {
+  font-weight: 900;
+}
+
+.sec-word1 {
+  margin-top: 40%;
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sec-word1 button {
+  background-color: white;
+  color: rgb(100, 100, 100);
+  border: 1px solid rgb(182, 181, 181);
+  width: 100%;
+  margin: 5px 0 0 0;
+  padding: 5px 0;
+}
+
+.sec-word1 button i {
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.sec-word1 span {
+  float: right;
+}
