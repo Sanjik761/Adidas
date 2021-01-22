@@ -11,7 +11,7 @@
 .header-center ul li {
   display: inline;
 } 
-  
+
 .bars {
   display: none;
   margin-top: 35px;
@@ -61,13 +61,12 @@
   
 .div-adidas-word1 {
   border-top: 2px solid rgb(236, 234, 234);
+  border-bottom: 2px solid rgb(236, 234, 234);
 }
 
-.sec-grid-com,
-.bag-art-grid,
 .div-adidas-word1 h1,
 .div-adidas-word1 ul {
-  margin: 30px 100px 30px 100px;
+  margin: 30px 0 30px 100px;
 }
 
 .div-adidas-word1 ul li {
@@ -82,6 +81,7 @@
   border-right: none;
 }
 
+.category-top ul li,
 .div-adidas-word1 a {
   color: rgb(100, 100, 100);
   text-decoration: none;
@@ -113,102 +113,41 @@
   font-family: sans-serif;
 }
 
-.bag-art-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+.categ-flex2,
+.categ-grid-col,
+.category {
+  padding: 30px 100px 0 100px;
 }
 
-.sec-word1,
-.sec-left {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
+.category-top {
+  display: flex;
+  justify-content: space-between;
 }
 
-.sec-left img {
-  width: 100%;
+.categ-flex2 ul li,
+.category-top ul li {
+  display: inline;
+  margin: 10px;
 }
 
-.sec-left-word {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.category-top i {
+  font-size: 12px;
 }
 
-.sec-left-word p:hover,
-.sec-left-word h1:hover {
+.categ-col h4:hover,
+.category-top ul li:hover {
   color: black;
   cursor: pointer;
 }
 
-.sec-left-word h1 {
-  font-family: sans-serif;
-  color: rgb(100, 100, 100);
-  font-size: 22px;
-}
-
-.sec-left-word h3 {
-  color: rgb(182, 181, 181);
-  font-family: sans-serif;
-  font-size: 15px;
-  margin: 10px 0;
-}
-
-.sec-left-word p {
-  font-weight: 900;
-}
-
-.sec-word1 {
-  margin-top: 15%;
-  color: rgb(100, 100, 100);
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.sec-word1 button {
-  background-color: white;
-  color: rgb(100, 100, 100);
-  border: 1px solid rgb(182, 181, 181);
-  width: 20vh;
-  margin: 5px 0 0 0;
-  padding: 5px 0;
-}
-
-.sec-word1 button i {
-  margin-left: 20px;
-  font-size: 14px;
-}
-
-.but-size button:hover {
-  color: white;
-  background-color: black;
-}
-
-.sec-left-word span {
-  margin-left: 80px;
-}
-
-.sec-grid {
+.categ-grid-col {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  margin: 0 50px 0 0;
-}
-
-.sec-grid p {
-  color: rgb(182, 181, 181);
-  font-size: 13px;
-}
-
-.pro-com {
-  color: rgb(100, 100, 100);
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  margin: 100px 0 0 100px;
+  gap: 20px;
 }
 
 .categ-col {
+  margin-top: 20px;
   position: relative;
 }
 
@@ -216,105 +155,161 @@
   position: absolute;
   top: 10px;
   right: 10px;
+  cursor: pointer;
 }
 
 .categ-col img {
   width: 100%;
 }
 
+.categ-flex2,
+.categ-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categ-col h6,
 .categ-col h5 {
   color: rgb(161, 161, 161);
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 8px;
 }
 
-.div-need h4,
 .categ-col h4 {
   color: rgb(100, 100, 100);
   font-size: 16px;
   margin: 10px 0;
-}
-
-.sec-grid-com {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.sec-right {
-  border: 2px solid rgb(182, 181, 181);
-  height: 60%;
-  padding: 20px 40px;
-  line-height: 35px;
-  color: rgb(100, 100, 100);
-  font-family: sans-serif;
-}
-
-.sec-right span {
-  float: right;
-  margin-top: -35px;
-  color: rgb(100, 100, 100);
-  font-family: sans-serif;
-}
-
-.sec-right h2 {
-  font-weight: 700;
-  font-size: 22px;
-}
-
-.div-need h4,
-.sec-right h4 {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.categ-col h4:hover,
-.categ-col p:hover,
-.categ-col i:hover,
-.pro-com:hover,
-.div-need h4:hover,
-.sec-right span:hover,
-.sec-right p:hover,
-.sec-right h4:hover,
-.sec-right h2:hover {
   cursor: pointer;
+}
+
+.categ-flex2 h4 {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.foot-center h3:hover,
+.categ-flex2 h4:hover {
+  color: rgb(161, 161, 161);
+}
+
+.categ-flex2 {
+  margin: 50px 0;
+}
+
+.categ-flex2 ul li a {
+  color: rgb(182, 181, 181);
+}
+
+.categ-flex2 ul li a:hover {
   color: black;
 }
 
-.but-img {
-  width: 48%;
-  border: 1px solid rgb(161, 161, 161);
-  margin: 20px 0;
-  padding: 5px 0;
-  background-color: white;
+.adidas-college {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin: 50px 100px;
 }
 
-.check {
-  width: 48%;
-  border: 1px solid rgb(161, 161, 161);
-  padding: 9px 0;
-  margin-right: 15px;
-  background-color: black;
+.men img,
+.women img {
+  height: 350px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.shop,
+.men,
+.women {
+  position: relative;
+}
+
+.men button,
+.women button {
+  position: absolute;
+  top: 150px;
+  left: 210px;
+  border: none;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 8px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.men button:hover,
+.women button:hover {
+  background-color: silver;
+  box-shadow: none;
   color: white;
 }
 
-.check:hover {
-  color: black;
-  background-color: white;
+.adidas-shopping {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
-.div-need p a {
+.shop {
+  width: fit-content;
+  height: fit-content;
+}
+
+.shop img {
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.shop a {
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
   color: rgb(100, 100, 100);
-  line-height: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
-.div-need p a:hover {
+.shop a:hover {
+  color: black;
   text-decoration: none;
+}
+
+.adi-img img {
+  width: 100%;
+  margin-top: 15px;
+  height: 50vh;
+  cursor: pointer;
+}
+
+.adi-img {
+  position: relative;
+  text-align: center;
+}
+
+.adi-gif-word {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.adi-gif-word p {
+  color: rgb(100, 100, 100);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.adi-gif-word p:hover {
+  font-size: 20px;
+  color: black;
 }
 
 .foot {
   border-top: 2px solid rgb(236, 234, 234);
   border-bottom: 2px solid rgb(236, 234, 234);
-  padding: 30px 100px;
+  padding: 50px 100px;
 }
 
 .foot-top {
@@ -364,6 +359,30 @@
   /* font-size: 20px; */
 }
 
+.foot-center {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.foot-center h3 {
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.foot-center a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.foot-center a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .end {
   display: flex;
   justify-content: space-between;
@@ -377,24 +396,35 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .product-grid,
   .div-adidas-word1 h1,
   .div-adidas-word1 ul {
-    margin: 30px 50px;
-  }
-  
-  .sec-grid-com, 
-  .bag-art-grid,
-  .div-adidas-word1 h1,
-  .div-adidas-word1 ul {
-    margin: 20px 50px;
+    margin: 20px 40px;
+  }   
+
+  .div-adidas-word1 h1 {
+    font-size: 18px;
   }
 
-  .bag-art-grid {
-    display: grid;
-    grid-template-columns: 1fr;
+  .adidas-college {
+    margin: 30px 50px;
   }
-}  
+
+  .men button,
+  .women button {
+    left: 80px;
+  }
+
+  .shop a {
+    display: none;
+  }
+
+  .categ-flex2,
+  .categ-grid-col,
+  .category,
+  .foot {
+    padding: 20px 40px;
+  }
+}
 
 @media only screen and (max-width: 425px) {
   .header-center,
@@ -429,58 +459,67 @@
     font-size: 12px;
   }
 
-  .sec-grid-com,
-  .bag-art-grid,
-  .div-adidas-word1 h1,
   .div-adidas-word1 ul {
-    margin: 20px 20px;
+    margin: 10px 25px;
   }
 
-  .sec-left {
+  .men img,
+  .women img {
+    height: 50vh;
+  }
+
+  .men button,
+  .women button {
+    left: 110px;
+  }
+
+  .adidas-college {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 30px 20px;
   }
 
-  .bag-art-grid {
-    display: grid;
-    grid-template-columns: 1fr;
+  .categ-flex2,
+  .categ-grid-col,
+  .category,
+  .foot {
+    padding: 10px 20px;
   }
 
-  .sec-left-word h1 {
-    font-size: 18px;
-  }
-
-  .check,
-  .but-img {
-    width: 47%;
-  }
-
-  .sec-grid-com {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .pro-com {
-    margin: 70px 0 0 20px;
-  }
-
-  .sec-grid {
-    margin: 0;
-  }
-
-  .categ-col h5 {
-    font-size: 10px;
-  }
-
-  .foot-top p,
-  .categ-col h4 {
+  .categ-flex2 h4 {
     font-size: 13px;
   }
 
-  .foot {
-    padding: 20px 20px;
+  .categ-grid-col {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
+  .foot {
+    padding: 20px;
+  }
+
+  .foot-top ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+
+  .foot-center h3,
+  .foot-top p {
+    font-size: 12px;
+  }
+  
+  .foot-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -130px;
+  }
+
+  .foot-center ul {
+    display: none;
+  }
+  
   .end p:last-child {
     display: none;
   }

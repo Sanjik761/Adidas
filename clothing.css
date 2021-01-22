@@ -1,11 +1,10 @@
 .head-adidas {
   display: flex;
   justify-content: space-around;
-  /* position: sticky; */
-  /* z-index: 1; */
-  /* top: 0; */
+  position: sticky;
+  z-index: 1;
+  top: 0;
   background-color: white;
-  /* height: 30px; */
 }
 
 .header-right ul li,
@@ -15,6 +14,12 @@
 
 .bars {
   display: none;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.bars a {
+  color: black;
 }
 
 .adidas-logo img {
@@ -75,7 +80,6 @@
   border-right: 1px solid white;
   margin: 5px;
   padding-right: 15px;
-
 }
 
 .div-adidas-word1 ul li:last-child {
@@ -276,6 +280,11 @@
   color: rgb(100, 100, 100);
 }
 
+.foot-top p:hover {
+  color: rgb(136, 233, 240);
+  transform: scale(1.2, 1.2);
+}
+
 .foot-top ul li a i {
   color: rgb(100, 100, 100);
   font-size: 18px;
@@ -314,6 +323,10 @@
   cursor: pointer;
 }
 
+.foot-center h3:hover{
+  color: rgb(182, 181, 181);
+}
+
 .foot-center a {
   text-decoration: none;
   color: rgb(100, 100, 100);
@@ -336,4 +349,126 @@
   color: rgb(100, 100, 100);
   font-family: sans-serif;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .adidas-college {
+    margin: 30px 50px;
+  }
+
+  .men button,
+  .women button {
+    left: 80px;
+  }
+
+  .shop a {
+    display: none;
+  }
+
+  .foot {
+    padding: 30px 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header-center,
+  .div-adidas-word p {
+    display: none;
+  }
+
+  .header-right ul li:nth-child(3),
+  .header-right ul li:nth-child(2) {
+    display: none;
+  } 
+
+  .bars {
+    display: inline;
+    color: black;
+  }
+
+  .adidas-logo img {
+    width: 60px;
+    margin-left: 20px;
+  }
+
+  .header-right a {
+    color: black;
+    font-size: 16px;
+  }
+
+  .adidas-photo img {
+    height: 30%;
+  }
+
+  .div-adidas-word1 {
+    left: 20px;
+    top: 10px;
+  }
+  
+  .div-adidas-word1 a {
+    font-size: 12px;
+  } 
+
+  .men img,
+  .women img {
+    height: 50vh;
+  }
+
+  .men button,
+  .women button {
+    left: 110px;
+  }
+
+  .div-adidas-word {
+    top: 130px;
+    left: 110px;
+    text-align: center;
+  }
+
+  .div-adidas-word h2 {
+    font-size: 24px;
+  }
+
+  .adidas-college {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px 20px;
+  }
+
+  .foot {
+    padding: 20px;
+  }
+
+  .foot-top ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+
+  .foot-center h3,
+  .foot-top p {
+    font-size: 12px;
+  }
+  
+  .foot-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -130px;
+  }
+
+  .foot-center ul {
+    display: none;
+  }
+  
+  .end p:last-child {
+    display: none;
+  }
+
+  .end {
+    margin: 20px;
+  }
+  
+  .end p {
+    font-size: 12px;
+  }
 }
