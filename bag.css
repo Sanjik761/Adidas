@@ -26,6 +26,7 @@
   padding: 20px 0;
   cursor: pointer;
   background-color: white;
+  width: 65px;
 }
   
 .header-right ul,
@@ -141,7 +142,7 @@
   cursor: pointer;
 }
 
-.sec-left-word h1 {
+.sec-left-word h2 {
   font-family: sans-serif;
   color: rgb(100, 100, 100);
   font-size: 22px;
@@ -286,6 +287,10 @@
   margin: 20px 0;
   padding: 5px 0;
   background-color: white;
+}
+
+.but-img img {
+  width: 70px;
 }
 
 .check {
