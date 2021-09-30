@@ -75,7 +75,6 @@
   border-right: 1px solid rgb(182, 181, 181);
   margin: 5px;
   padding-right: 10px;
-
 }
 
 .div-adidas-word1 ul li:last-child {
@@ -255,7 +254,6 @@
 .fa-youtube:hover {
   color: #e62117;
   transform: scale(2, 2);
-  /* font-size: 20px; */
 }
 
 .foot-center {
@@ -400,5 +398,4 @@
   .end p {
     font-size: 12px;
   }
-}  
-  
+}
